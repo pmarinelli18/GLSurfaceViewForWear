@@ -46,7 +46,7 @@ public class MyRenderer extends ThirdEyeRenderer implements View.OnTouchListener
         my_level=new Level(10,metal_texture,brick_texture);
 
 
-        background(153/255f,	204/255f,	255/255f);
+        //background(153/255f,	204/255f,	255/255f);
         setLightDir(0,-1,-1);
 
     }
