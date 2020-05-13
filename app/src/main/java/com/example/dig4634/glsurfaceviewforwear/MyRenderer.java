@@ -29,20 +29,22 @@ public class MyRenderer extends ThirdEyeRenderer implements View.OnTouchListener
     @Override
     public void setup() {
 
+        //Load textures
         wooden_texture=new Texture(getContext(),"box.png");
         metal_texture=new Texture(getContext(),"metal.jpg");
         brick_texture=new Texture(getContext(),"bricks.jpg");
 
+        //Make a triangle
         my_triangle=new Triangle();
         my_triangle.setTexture(wooden_texture);
         my_triangle.localTransform.translate(0,0,-5);
 
-
+        //Make a cube
         my_cube=new Cube();
         my_cube.setTexture(wooden_texture);
         my_cube.positionZ=-5;
 
-
+        //Make a level
         my_level=new Level(10,metal_texture,brick_texture);
 
 
