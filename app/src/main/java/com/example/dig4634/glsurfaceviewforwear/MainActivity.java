@@ -1,3 +1,6 @@
+//This is a comment made by Peyton
+//I have created a new fork
+
 package com.example.dig4634.glsurfaceviewforwear;
 
 import android.graphics.PixelFormat;
